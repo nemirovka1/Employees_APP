@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nemirovka1/Employees_APP.git/static/css/main.e0de9533.css",
-    "main.js": "/nemirovka1/Employees_APP.git/static/js/main.25b7218e.js",
-    "static/js/787.28cb0dcd.chunk.js": "/nemirovka1/Employees_APP.git/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/nemirovka1/Employees_APP.git/index.html",
-    "main.e0de9533.css.map": "/nemirovka1/Employees_APP.git/static/css/main.e0de9533.css.map",
-    "main.25b7218e.js.map": "/nemirovka1/Employees_APP.git/static/js/main.25b7218e.js.map",
-    "787.28cb0dcd.chunk.js.map": "/nemirovka1/Employees_APP.git/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/Employees_APP.git/static/css/main.e0de9533.css",
+    "main.js": "/Employees_APP.git/static/js/main.fb92940f.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Employees_APP.git/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Employees_APP.git/index.html",
+    "main.e0de9533.css.map": "/Employees_APP.git/static/css/main.e0de9533.css.map",
+    "main.fb92940f.js.map": "/Employees_APP.git/static/js/main.fb92940f.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Employees_APP.git/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0de9533.css",
-    "static/js/main.25b7218e.js"
+    "static/js/main.fb92940f.js"
   ]
 }
