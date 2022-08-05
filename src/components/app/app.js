@@ -47,16 +47,28 @@ addItem = (name, salary) => {
    })
 }
 
-onTogleProp=(id,prop)=>{
-    this.setState(({data})=>({
-        data:data.map(item=>{
-            if (item.id === id){
-                return {...item,[prop]:!item[prop]}
+onToggleIncrease = (id) => {
+    this.setState(({data}) => ({
+        data: data.map ( item => {
+            if (item.id === id) {
+                return {...item, increase: !item.increase}
             }
-            return item;
+            return item
         })
-      }))
- }
+    }))
+}
+
+onToggleRise = (id) =>{
+    this.setState(({data}) => ({
+        data: data.map ( item => {
+             if (item.id === id) {
+                return {...item, like: !item.like}
+             }
+             return item
+        })
+    }))
+}
+
 searchEmp=(items,term)=>{   
     if(term.length === 0){
         return items;
@@ -119,7 +131,8 @@ onFilterSelect=(filter)=>{
             <EmploysList
             data={visibelData}
             onDelete={this.deleteItem}
-            onTogleProp={this.onTogleProp}
+            onToggleIncrease = {this.onToggleIncrease}
+            onToggleRise = {this.onToggleRise} 
             updatehandleSalary = {this.handleSalary}/>
 
             <EmploysAddForm onAdd={this.addItem}/>

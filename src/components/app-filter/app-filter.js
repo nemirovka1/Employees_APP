@@ -1,6 +1,7 @@
 import './app-filter.css'
 
 const  AppFilter=(props)=>{
+    
     const buttonsData=[
         {name:'all',label:'Все сотрудники'},
         {name:'like',label:'На повышение'},
